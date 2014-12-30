@@ -1,5 +1,5 @@
 NAME
-    Devel::Local - Log Information When "perl" Runs
+    Devel::PerlLog - Log Information When "perl" Runs
 
 SYNOPSIS
         export PERL5OPT='-MDevel::PerlLog=/tmp/perl.log'
@@ -20,7 +20,7 @@ CONFIGURATION
     All the configuration options for this module are made as arguments to
     "- MDevel::PerlLog". For example:
 
-          export PERL5OPT="-MDevel::Perl5Log=$PWD/perl.log,all"
+          export PERL5OPT="-MDevel::PerlLog=$PWD/perl.log,all"
 
     This section documents the configuration options.
 
