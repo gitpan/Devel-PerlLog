@@ -19,9 +19,10 @@ no_index:
     - xt
     - example
 requires:
+  YAML::XS: '0.55'
   perl: v5.8.1
 resources:
   bugtracker: https://github.com/ingydotnet/devel-perllog-pm/issues
   homepage: https://github.com/ingydotnet/devel-perllog-pm
   repository: https://github.com/ingydotnet/devel-perllog-pm.git
-version: '0.02'
+version: '0.03'

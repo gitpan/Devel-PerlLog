@@ -1,3 +1,6 @@
+0.03 Tue Dec 30 10:26:12 PST 2014
+ - Update prereqs to include YAML::XS
+
 0.02 Tue Dec 30 10:22:16 PST 2014
  - Doc fixes. sivoais++
 

@@ -34,6 +34,7 @@
       },
       "runtime" : {
          "requires" : {
+            "YAML::XS" : "0.55",
             "perl" : "v5.8.1"
          }
       }
@@ -50,6 +51,6 @@
          "web" : "https://github.com/ingydotnet/devel-perllog-pm"
       }
    },
-   "version" : "0.02"
+   "version" : "0.03"
 }
 

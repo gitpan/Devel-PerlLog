@@ -20,8 +20,10 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "MIN_PERL_VERSION" => "5.008001",
   "NAME" => "Devel::PerlLog",
-  "PREREQ_PM" => {},
-  "VERSION" => "0.02",
+  "PREREQ_PM" => {
+    "YAML::XS" => "0.55"
+  },
+  "VERSION" => "0.03",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -29,7 +31,8 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
-  "ExtUtils::MakeMaker" => 0
+  "ExtUtils::MakeMaker" => 0,
+  "YAML::XS" => "0.55"
 );
 
 
