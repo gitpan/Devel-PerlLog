@@ -10,7 +10,7 @@
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
-      "version" : "2"
+      "version" : 2
    },
    "name" : "Devel-PerlLog",
    "no_index" : {
@@ -51,6 +51,6 @@
          "web" : "https://github.com/ingydotnet/devel-perllog-pm"
       }
    },
-   "version" : "0.03"
+   "version" : "0.04"
 }
 
